@@ -1,3 +1,5 @@
+## This code labels just for one object. 
+
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from PIL import Image

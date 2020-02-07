@@ -106,7 +106,6 @@ def checkForDistanceFolder(imgPath):
 
 def changePath(path):
     
- 
     newPath = path.split("images")
     newPath = newPath[0] + "labels" + newPath[1]
     newPath = newPath.split("jpg")
@@ -131,14 +130,6 @@ def changePath(path):
         c_ = checkClassification(c_)
 
         return c_, x_, y_, w_, h_
-
-
-
-
-
-
-
-
 
 
 def checkClassification(classname):

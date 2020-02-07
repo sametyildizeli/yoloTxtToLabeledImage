@@ -54,11 +54,6 @@ def takePathOfFiles(imgPathFile):
         
             fig.savefig(distFilename, transparent=True)#, bbox_inches='tight', pad_inches=0, dpi=150)
         
-        
-         
-
-
-
         ##############################################
 #        c, x, y, w, h  = changePath(imagePath)
 #        
